@@ -37,7 +37,7 @@ function iLoveTheBeatles(number) {
     return beatlesArray // returns the array
   }
   while (number > 15) { //conditional to stop if number is greater than 15
-    return beatlesArray
+    return repeatedString
   }
 
   //Giving me the "RangeError: Invalid count value" error. Related to using the .repeat method with the "i" variable: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Resulting_string_too_large
