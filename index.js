@@ -41,18 +41,4 @@ function iLoveTheBeatles(number) {
   }
 
   //Giving me the "RangeError: Invalid count value" error. Related to using the .repeat method with the "i" variable: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Resulting_string_too_large
-
-  // var beatlesArray = []; //Empty array where we insert strings
-  // var i = 15 - number; //Set counter to number of times string needs to be inserted
-  // var repeatedString = "I love the Beatles! "; //String to repeat
-  // do {
-  //   beatlesArray.push(repeatedString.repeat(i)) //adds "I love the Beatles!" to the empty array.
-  //   return beatlesArray
-  // }
-  // while (number < 15);
-  // return beatlesArray
-  // // else {
-  // //   beatlesArray.push(repeatedString)
-  // // while (number < 15);
-
 }
