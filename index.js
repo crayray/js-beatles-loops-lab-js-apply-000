@@ -29,10 +29,10 @@ function johnLennonFacts(facts) {
 var number;
 function iLoveTheBeatles(number) {
   var beatlesArray = []; //Empty array where we insert strings
-  var i = 15 - number; //Set counter to number of times string needs to be inserted
   var repeatedString = "I love the Beatles!"; //String to repeat
   do {
     // beatlesArray.push("I love the Beatles!") //adds "I love the Beatles!" to the empty array.
+    var i = 15 - number; //Set counter to number of times string needs to be inserted
     beatlesArray.push(repeatedString.repeat(i)) //adds "I love the Beatles!" i times to the empty array.
     return beatlesArray // returns the array
   }
