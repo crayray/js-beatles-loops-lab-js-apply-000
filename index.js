@@ -33,7 +33,7 @@ function iLoveTheBeatles(number) {
   var repeatedString = "I love the Beatles!"; //String to repeat
   do {
     // beatlesArray.push("I love the Beatles!") //adds "I love the Beatles!" to the empty array.
-    beatlesArray.push(repeatedString.repeat(i)) //adds "I love the Beatles!" to the empty array.
+    beatlesArray.push(repeatedString.repeat(i)) //adds "I love the Beatles!" i times to the empty array.
     return beatlesArray // returns the array
   }
   while (number > 15) { //conditional to stop if number is greater than 15
